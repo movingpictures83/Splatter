@@ -1,0 +1,2 @@
+Prefix plugins/Splatter/example/
+Plugin Splatter inputfile none outputfile params.csv

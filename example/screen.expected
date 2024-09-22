@@ -1,0 +1,71 @@
+***********************************************************************************
+*                                                                                 *
+*  PPPPPPPPPPPP    L               U           U   M           M         A        *
+*  P           P   L               U           U   MM         MM        A A       *
+*  P           P   L               U           U   M M       M M       A   A      *
+*  P           P   L               U           U   M  M     M  M      A     A     *
+*  P           P   L               U           U   M   M   M   M     A       A    *
+*  PPPPPPPPPPPP    L               U           U   M    M M    M    A         A   *
+*  P               L               U           U   M     M     M   AAAAAAAAAAAAA  *
+*  P               L               U           U   M           M   A           A  *
+*  P               L               U           U   M           M   A           A  *
+*  P               LLLLLLLLLLLLL    UUUUUUUUUUU    M           M   A           A  *
+*                                                                                 *
+*            [Plu]gin-based [M]icrobiome [A]nalysis (formerly MiAMi)              *
+* (C) 2016, 2018 Bioinformatics Research Group, Florida International University  *
+*    Under MIT License From Open Source Initiative (OSI), All Rights Reserved.    *
+*                                                                                 *
+*    Any professionally published work using PluMA should cite the following:     *
+*                        T. Cickovski and G. Narasimhan.                          *
+*                Constructing Lightweight and Flexible Pipelines                  *
+*                 Using Plugin-Based Microbiome Analysis (PluMA)                  *
+*                     Bioinformatics 34(17):2881-2888, 2018                       *
+*                                                                                 *
+***********************************************************************************
+[PluMA] Running Plugin: Splatter
+A Params object of class SplatParams
+Parameters can be (estimable) or [not estimable], 'Default' or  'NOT DEFAULT'
+Secondary parameters are usually set during simulation
+
+Global:
+(GENES)  (Cells)   [SEED]
+   8000      100    81261
+
+29 additional parameters
+
+Batches:
+    [Batches]  [Batch Cells]     [Location]        [Scale]       [Remove]
+            1            100            0.1            0.1          FALSE
+
+Mean:
+ (RATE)  (Shape)
+    0.5      0.6
+
+Library size:
+(Location)     (Scale)      (Norm)
+        11         0.2       FALSE
+
+Exprs outliers:
+(Probability)     (Location)        (Scale)
+         0.05              4            0.5
+
+Groups:
+     [Groups]  [Group Probs]
+            1              1
+
+Diff expr:
+[Probability]    [Down Prob]     [Location]        [Scale]
+          0.1            0.5            0.1            0.4
+
+BCV:
+(Common Disp)          (DoF)
+          0.1             60
+
+Dropout:
+    [Type]  (Midpoint)     (Shape)
+      none           0          -1
+
+Paths:
+        [From]         [Steps]          [Skew]    [Non-linear]  [Sigma Factor]
+             0             100             0.5             0.1             0.8
+
